@@ -3,12 +3,10 @@
 </mat-toolbar>
 
 <div class="content">
-    <nav>
-        <a routerLink="/dashboard">Dashboard</a>
-    </nav>
-    <nav>
-        <a routerLink="/heroes">Hereos</a>
-    </nav>
+    <div>
+        <button mat-button color="acent" routerLink="/dashboard">Dashboard</button>
+        <button button mat-button color="acent" routerLink="/heroes">Heroes</button>
+    </div>
     <router-outlet></router-outlet>
     <app-messages></app-messages>
 </div>

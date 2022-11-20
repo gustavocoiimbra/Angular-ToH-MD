@@ -11,6 +11,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatButtonModule} from '@angular/material/button';
+
 
 @NgModule({
   declarations: [
@@ -25,8 +27,9 @@ import {MatToolbarModule} from '@angular/material/toolbar';
     FormsModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    
-    MatToolbarModule
+
+    MatToolbarModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
